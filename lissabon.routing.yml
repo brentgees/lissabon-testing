@@ -1,4 +1,4 @@
-# DropsolidHeaderDefaults routing definition
+# Lissabon routing definition
 entity.lissabon_routing.collection:
   path: '/admin/lissabon'
   defaults:
