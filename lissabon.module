@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Contains lissabon.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function lissabon_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the lissabon module.
+    case 'help.page.lissabon':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Module for lissabon session') . '</p>';
+      return $output;
+
+    default:
+  }
+
+}

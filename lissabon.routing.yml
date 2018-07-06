@@ -1,0 +1,10 @@
+# DropsolidHeaderDefaults routing definition
+entity.lissabon_routing.collection:
+  path: '/admin/lissabon'
+  defaults:
+    _form: '\Drupal\lissabon\Form\LissabonConfigForm'
+    _title: 'Lissabon configuration'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
